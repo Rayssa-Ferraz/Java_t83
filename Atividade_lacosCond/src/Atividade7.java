@@ -17,7 +17,7 @@ public class Atividade7 {
         System.out.println("2 - Subtração");
         System.out.println("3 - Multiplicação");
         System.out.println("4 - Divisão");
-        System.out.print("Digite o código da operação (1 a 4): ");
+        System.out.print("Digite o código da operação: ");
         int operacao = leia.nextInt();
 
         float resultado = 0.0f;

@@ -11,21 +11,25 @@ public class Atividade8 {
 		        System.out.println("       1              |    Saldo         ");
 		        System.out.println("       2              |    Saque         ");
 		        System.out.println("       3              |    Depósito      ");
-				
+		        System.out.println(" --------------------------------------- ");
+		        System.out.println("                                         ");
+		        
         float saldo = 1000.0f;
+        System.out.println("                                         ");
+
         System.out.println("Digite o código da operação (1=Saldo, 2=Saque, 3=Depósito): ");
         int operacao = leia.nextInt();
 
         switch (operacao) {
             case 1: 
-                System.out.println("Operação - Saldo");
+                System.out.println("Saldo");
                 System.out.printf("Saldo: R$ %.2f%n", saldo);
                 break;
 
             case 2: 
                 System.out.print("Digite o valor do saque: R$ ");
                 float valorSaque = leia.nextFloat();
-                System.out.println("Operação - Saque");
+                System.out.println("Saque");
                 if (valorSaque > saldo) {
                     System.out.println("Saldo Insuficiente!");
                 } else {
@@ -38,7 +42,7 @@ public class Atividade8 {
                 System.out.print("Digite o valor do depósito: R$ ");
                 float valorDeposito = leia.nextFloat();
                 saldo += valorDeposito;
-                System.out.println("Operação - Depósito");
+                System.out.println("Depósito");
                 System.out.printf("Novo Saldo: R$ %.2f%n", saldo);
                 break;
 

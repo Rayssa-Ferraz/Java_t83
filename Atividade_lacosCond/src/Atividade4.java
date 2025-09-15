@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import java.util.Scanner;
+=======
+>>>>>>> 21c638edda5e581c241a413d29a1d87ac914994d
 
 public class Atividade4 {
 
 	public static void main(String[] args) {
+<<<<<<< HEAD
 		
 		Scanner leia = new Scanner(System.in);
 
@@ -55,3 +59,10 @@ public class Atividade4 {
         leia.close();
     }
 }
+=======
+		// TODO Auto-generated method stub
+
+	}
+
+}
+>>>>>>> 21c638edda5e581c241a413d29a1d87ac914994d

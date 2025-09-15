@@ -59,7 +59,7 @@ public class Atividade5 {
 				break;
 			 default:
 	                
-	        System.out.println("Código de produto inválido. Por favor, digite um número de 1 a 6.");
+	        System.out.println("Código inválido. Por favor, digite um número de 1 a 6.");
 	                leia.close();
 	                return;
 	                

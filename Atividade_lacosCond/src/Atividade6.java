@@ -60,7 +60,7 @@ public class Atividade6 {
 				percentual = 0.08;
 				break;
 			default:
-				System.out.println("Código do cargo invalido!");
+				System.out.println("Código do cargo inválido!");
 				leia.close();
 				return;
 		}

@@ -24,10 +24,17 @@ public class Atividade3 {
                 } else {
                     System.out.println("\n" + nome + " está apto para doar sangue!");
                 }
+<<<<<<< HEAD
             } else {
                 System.out.println("\n" + nome + " está apto para doar sangue!");
             }
         } else {
+=======
+            } else { // Idade entre 18 e 59
+                System.out.println("\n" + nome + " está apto para doar sangue!");
+            }
+        } else { // Idade fora do intervalo 18-69
+>>>>>>> 21c638edda5e581c241a413d29a1d87ac914994d
             System.out.println("\n" + nome + " não está apto para doar sangue!");
         }
 
