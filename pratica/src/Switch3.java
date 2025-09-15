@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Atividade7 {
+public class Switch3 {
 
 	public static void main(String[] args) {
 		Scanner leia = new Scanner(System.in);

@@ -3,7 +3,7 @@ import java.util.Scanner;
 =======
 >>>>>>> 21c638edda5e581c241a413d29a1d87ac914994d
 
-public class Atividade4 {
+public class If4 {
 
 	public static void main(String[] args) {
 <<<<<<< HEAD

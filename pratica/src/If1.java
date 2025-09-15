@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Atividade1 {
+public class If1 {
 
 	public static void main(String[] args) {
 		
