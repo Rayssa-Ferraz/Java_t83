@@ -17,12 +17,12 @@ public class Atividade8 {
         int operacao = leia.nextInt();
 
         switch (operacao) {
-            case 1: // Consultar saldo
+            case 1: 
                 System.out.println("Operação - Saldo");
                 System.out.printf("Saldo: R$ %.2f%n", saldo);
                 break;
 
-            case 2: // Saque
+            case 2: 
                 System.out.print("Digite o valor do saque: R$ ");
                 float valorSaque = leia.nextFloat();
                 System.out.println("Operação - Saque");
@@ -34,7 +34,7 @@ public class Atividade8 {
                 }
                 break;
 
-            case 3: // Depósito
+            case 3: 
                 System.out.print("Digite o valor do depósito: R$ ");
                 float valorDeposito = leia.nextFloat();
                 saldo += valorDeposito;
@@ -42,7 +42,7 @@ public class Atividade8 {
                 System.out.printf("Novo Saldo: R$ %.2f%n", saldo);
                 break;
 
-            default: // Opção inválida
+            default: 
                 System.out.println("Operação Inválida!");
         
         }
