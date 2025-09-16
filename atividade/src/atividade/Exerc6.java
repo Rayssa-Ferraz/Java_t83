@@ -71,7 +71,7 @@ public class Exerc6 {
         System.out.println("-------------------------------------");
         System.out.println("Colaborador:" + nome);
         System.out.println("Cargo:" + cargo);
-        System.out.printf("Salário: R$ %.2f", novoSalario);
+        System.out.printf("Salário: R$ %.2f",novoSalario);
         
         leia.close();
 

@@ -11,7 +11,7 @@ public class Exerc2 {
 		int numero = leia.nextInt();
 		
 		if(numero %2 == 0) {
-			System.out.printf("O número " + numero + " é PAR e ");
+			System.out.print("O número " + numero + " é PAR e ");
 		}else {
 			System.out.printf("O número " + numero + " é ÍMPAR e ");
 		}

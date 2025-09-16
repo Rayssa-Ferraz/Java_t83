@@ -27,12 +27,12 @@ public class Exerc8 {
         case 2:
         	System.out.println("Digite o valor que deseja sacar: R$ ");
         	float valorsaque = leia.nextFloat();
-        	System.out.printf("Saque");
+        	System.out.printf("Saque ");
         	if(valorsaque > saldo) {
         		System.out.println("Saldo Insuficiente!");
         	}else {
         		saldo -= valorsaque;
-        		System.out.printf("Novo Saldo: R$ %.2f", saldo);   		
+        		System.out.printf(" Novo Saldo: R$ %.2f", saldo);   		
         		        		
         	}
         	break;
