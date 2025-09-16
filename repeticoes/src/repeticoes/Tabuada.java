@@ -9,13 +9,18 @@ public class Tabuada {
 		Scanner leia = new Scanner(System.in);
 		
 		int numero;
+		int contador = 1;
+		
 		
 		System.out.println("Digite um numero: ");
 		numero = leia.nextInt();
 		
-		for(int contador = 1; contador <= 10; contador ++) {
+		while (contador <= 10) {
 			System.out.printf("%d x %d = %d%n", numero, contador, numero * contador);
+		    contador ++;
 		}
+		
+		
 		
 		leia.close();
 	}
