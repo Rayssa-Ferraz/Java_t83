@@ -18,7 +18,8 @@ public class ExemploVetor {
 		
 		Arrays.sort(nomes);
 		
-				
+		Arrays.sort(nomes, Collections.reverseOrder());
+		
 		for(int indice = 0; indice < nomes.length; indice ++) {
 			System.out.printf("nomes[%d] = %s%n ", indice, nomes[indice]);
 		}
