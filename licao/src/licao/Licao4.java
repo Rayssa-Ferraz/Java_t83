@@ -26,7 +26,7 @@ public class Licao4 {
 			System.out.println("4 - Mulher Trnas");
 			System.out.println("5 - Homem Trans");
 			System.out.println("6 - Outros");
-			System.out.println("Gênero: ");
+			System.out.printf("Gênero: ");
 			int genero = leia.nextInt();
 			
 			
@@ -74,10 +74,7 @@ public class Licao4 {
 
 			}
 
-
-		
-		
-		
+				
 		leia.close();
 
 	}
