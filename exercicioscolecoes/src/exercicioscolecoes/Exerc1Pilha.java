@@ -40,7 +40,7 @@ public class Exerc1Pilha {
 	                    if (pilha.isEmpty()) {
 	                        System.out.println("\nA Pilha está vazia!");
 	                    } else {
-	                       System.out.println("\nLista de livros na pilha/; ");
+	                       System.out.println("\nLista de livros na pilha; ");
 	                       for(var l : pilha) {
 	                    	   System.out.println(l);
 	                       }
