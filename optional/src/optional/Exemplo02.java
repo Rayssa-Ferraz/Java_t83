@@ -14,11 +14,12 @@ public class Exemplo02 {
 			System.out.println(frase);
 		}
 		
-		
+		// Optional vazio
 		Optional<String> optionalVazio = Optional.empty();
 		System.out.println("\n Exibir optionalVazio: " + optionalVazio);
 		System.out.println("\n optionalVazio está vazio? " + optionalVazio.isEmpty());
 
+		// Optional com dados
 		Optional<String> valor_indice_02 = Optional.of(frases[2]);
 		System.out.println("\n Exibir valor_indice_02: " + valor_indice_02);
 		System.out.println("\n Obter o conteúdo de valor_indice_02: " + valor_indice_02.get());

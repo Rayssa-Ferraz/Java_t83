@@ -20,6 +20,5 @@ public class Exemplo01 {
 			System.out.println("O valor é nulo!");
 		}
 		
-        
 	}
 }
